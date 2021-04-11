@@ -1,0 +1,24 @@
+{
+  "name": "typescript-cli-tool-boilerplate",
+  "version": "0.1.0",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "dev": "webpack --config webpack.config.js --watch --mode=development",
+    "tc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "prettier": "latest",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
