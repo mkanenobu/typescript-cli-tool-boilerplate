@@ -1,0 +1,8 @@
+{
+  extends: ["config:base"],
+  timezone: "Asia/Tokyo",
+  // 毎週末
+  schedule: ["before 3am on the first day of the month"],
+  labels: ["renovate"],
+  supportPolicy: ["lts_latest"],
+}
