@@ -1,4 +1,4 @@
-const build = require("esbuild").build;
+const { build } = require("esbuild");
 
 const availableEnvValues = ["development", "production", "test"];
 const env = availableEnvValues.includes(process.env.NODE_ENV)
