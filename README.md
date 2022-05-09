@@ -16,28 +16,22 @@ Production build
 npm run build
 ```
 
-Debug build with watch
-
-```bash
-npm run build:dev
-```
-
 Run production build
 
 ```bash
 npm start
 ```
 
-Run debug build with watch
-
-```bash
-npm run start:dev
-```
-
 Run test
 
 ```bash
 npm run test
+```
+
+Run test once
+
+```bash
+npm run test:once
 ```
 
 Run type check

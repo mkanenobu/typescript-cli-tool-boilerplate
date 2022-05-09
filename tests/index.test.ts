@@ -1,4 +1,4 @@
-import { test } from "@jest/globals";
+import { test, expect } from "vitest";
 import { hello } from "../src";
 
 test("Function 'hello' returns 'Hello, World!'", () => {
